@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenEarsTest", "OpenEarsTest\OpenEarsTest.csproj", "{F97A1A64-89BC-4429-877B-4D534AE8F044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F97A1A64-89BC-4429-877B-4D534AE8F044}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{F97A1A64-89BC-4429-877B-4D534AE8F044}.Debug|iPhone.Build.0 = Debug|iPhone
+		{F97A1A64-89BC-4429-877B-4D534AE8F044}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{F97A1A64-89BC-4429-877B-4D534AE8F044}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{F97A1A64-89BC-4429-877B-4D534AE8F044}.Release|iPhone.ActiveCfg = Release|iPhone
+		{F97A1A64-89BC-4429-877B-4D534AE8F044}.Release|iPhone.Build.0 = Release|iPhone
+		{F97A1A64-89BC-4429-877B-4D534AE8F044}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{F97A1A64-89BC-4429-877B-4D534AE8F044}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = OpenEarsTest\OpenEarsTest.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.inheritsSet = Mono
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.inheritsSet = VisualStudio
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = null
+		$4.scope = application/vnd.apple-interface-builder
+		$0.XmlFormattingPolicy = $5
+		$5.inheritsSet = null
+		$5.scope = application/vnd.apple-interface-builder
+	EndGlobalSection
+EndGlobal
