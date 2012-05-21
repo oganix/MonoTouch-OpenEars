@@ -12,13 +12,11 @@ namespace OpenEarsTest
 
 	#region Fields
 
-	MyOpenEarsEventsObserverDelegate openEarsEventsObserverDelegate;
 	OpenEarsEventsObserver observer;
 	PocketsphinxController pocketSphinxController;
 	FliteController fliteController;
 	String pathToLanguageModel;
 	String pathToDictionary;
-	String firstVoiceToUse;
 	String secondVoiceToUse;
 		
 	#endregion
@@ -164,8 +162,8 @@ namespace OpenEarsTest
 			
 	    firstVoiceToUse = "cmu_us_slt";
 	    secondVoiceToUse = "cmu_us_rms";
-	    pathToLanguageModel = NSBundle.MainBundle.ResourcePath + System.IO.Path.DirectorySeparatorChar + "numbers.languagemodel";
-	    pathToDictionary = NSBundle.MainBundle.ResourcePath + System.IO.Path.DirectorySeparatorChar + "numbers.dic";
+	    pathToLanguageModel = NSBundle.MainBundle.ResourcePath + System.IO.Path.DirectorySeparatorChar + "OpenEars1.languagemodel";
+	    pathToDictionary = NSBundle.MainBundle.ResourcePath + System.IO.Path.DirectorySeparatorChar + "OpenEars1.dic";
 	}
 		
 	#endregion
