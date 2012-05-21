@@ -1,6 +1,6 @@
 
 
-This project provide MonoTouch binding for the http://www.politepix.com/openears framework. 
+This project provide MonoTouch binding for the [OpenEars](http://www.politepix.com/openears framework).
 
 There are two folders:
 
@@ -9,7 +9,7 @@ There are two folders:
 
 How to create the binding:
 
-1. Download the OpenEars distribution from http://www.politepix.com/openears
+1. Download the OpenEars distribution from [here](http://www.politepix.com/openears).
 2. Unzip it 
 3. Copy <unzip location>/OpenEarsDistribution/OpenEars/framework/OpenEars.framework/Versions/Current/OpenEars 
    file to the 'Binding' folder and rename it to libOpenEars.a
@@ -17,13 +17,15 @@ How to create the binding:
 5. make clean
 6. make all
 
-This will generate the OpenEars.dll 
+=> This will generate the OpenEars.dll 
 
-How to use:
+How to use is it with MonoTouch 
 
-1. Reference OpenEars.dll 
-2. Add your languagemodel/dictionary file to your project 
+1. Reference OpenEars.dll in your project
+2. Add your languagemodel/dictionary files to your project 
 3. Add your acoustic model to your project
+
+
 
 
 
