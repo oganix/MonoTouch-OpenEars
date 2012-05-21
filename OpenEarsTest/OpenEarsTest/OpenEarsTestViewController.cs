@@ -9,7 +9,6 @@ namespace OpenEarsTest
 {
     public partial class OpenEarsTestViewController : UIViewController
     {
-
 	#region Fields
 
 	OpenEarsEventsObserver observer;
@@ -17,6 +16,7 @@ namespace OpenEarsTest
 	FliteController fliteController;
 	String pathToLanguageModel;
 	String pathToDictionary;
+	String firstVoiceToUse;
 	String secondVoiceToUse;
 		
 	#endregion
@@ -163,7 +163,7 @@ namespace OpenEarsTest
 	    firstVoiceToUse = "cmu_us_slt";
 	    secondVoiceToUse = "cmu_us_rms";
 	    pathToLanguageModel = NSBundle.MainBundle.ResourcePath + System.IO.Path.DirectorySeparatorChar + "OpenEars1.languagemodel";
-	    pathToDictionary = NSBundle.MainBundle.ResourcePath + System.IO.Path.DirectorySeparatorChar + "OpenEars1.dic";
+	    pathToDictionary = NSBundle.MainBundle.ResourcePath + System.IO.Path.DirectorySeparatorChar + "num.dic";
 	}
 		
 	#endregion
