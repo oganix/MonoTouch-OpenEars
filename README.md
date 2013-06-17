@@ -1,6 +1,5 @@
 
-
-This project provides MonoTouch binding for the [OpenEars](http://www.politepix.com/openears framework).
+This project provides MonoTouch binding for the [OpenEars](http://www.politepix.com/openears/).
 
 There are two folders:
 
